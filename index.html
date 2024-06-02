@@ -46,12 +46,10 @@
 								<li class="nav-item">
 									<a class="nav-link" href="about.html">About </a>
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="models.html">Vehicle Models </a>
-								</li>
+								
 								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" role="button"
-										data-bs-toggle="dropdown" aria-expanded="false">
+									<a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown"
+										role="button" data-bs-toggle="dropdown" aria-expanded="false">
 										Service
 									</a>
 									<ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
@@ -62,17 +60,28 @@
 											<a class="dropdown-item" href="models.html"> Vehicles</a>
 										</li>
 										<li>
-											<a class="dropdown-item border-0" href="deals.html">
+											<a class="dropdown-item" href="deals.html">
 												Deal Detail</a>
 										</li>
 
 										<li>
-											<a class="dropdown-item border-0" href="insurance.html">
+											<a class="dropdown-item" href="insurance.html">
 												Insurance</a>
 										</li>
+
+										<li>
+											<a class="dropdown-item" href="location.html">
+												Location</a>
+										</li>
+
+										<li>
+											<a class="dropdown-item" href="reservation.html">
+												Reservation</a>
+										</li>
+
 									</ul>
 								</li>
-                               
+
 
 								<li class="nav-item">
 									<a class="nav-link" href="team.html">Team</a>
@@ -1050,8 +1059,7 @@
 		var sticky = navbar_sticky.offsetTop;
 		var navbar_height = document.querySelector(".navbar").offsetHeight;
 
-		function myFunction()
-		{
+		function myFunction() {
 			if (window.pageYOffset >= sticky + navbar_height) {
 				navbar_sticky.classList.add("sticky");
 				document.body.style.paddingTop = navbar_height + "px";
@@ -1061,12 +1069,12 @@
 			}
 		}
 
-		$('document').ready(function(){
+		$('document').ready(function () {
 			$('#select_car').select2({
-				placeholder:'Select Car',
+				placeholder: 'Select Car',
 				allowClear: true
 			});
-	    });
+		});
 
 	</script>
 </body>
