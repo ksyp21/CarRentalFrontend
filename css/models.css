@@ -1,60 +1,50 @@
-/*
-Template Name: Car Lease
-File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
-*/
-/*********************models****************/
-.center_o {
-background-image: url(../img/14.jpg);
-background-position: center;
+.main_2 {
+    /* Add necessary styles for main_2 if any */
 }
-.model_m{
-border:1px solid #ff4d302e;
- }
-/*********************models_end****************/
 
+.center_o {
+    background-image: url(../img/14.jpg);
+    background-position: center;
+    padding: 20px; /* Adjust padding as needed */
+}
 
-@media screen and (max-width : 767px){
-.model_pg1i {
-margin-top:15px;
-text-align:center; 
- }
-.model_pg1i2r {
-text-align:center!important;
-margin-top:15px; 
- }
-.model_pg1i3l {
-margin-top:15px;
-text-align:center!important; 
- }
- }
+.center_om {
+    /* Add necessary styles for center_om if any */
+}
 
+.container-xl {
+    /* Add necessary styles for container-xl if any */
+}
 
-@media (min-width:576px) and (max-width:767px) {
-.model_pg1i2r {
-margin-top:0; 
- }
-.model_pg1i3l {
-margin-top:0;
- }
+.row {
+    /* Ensure no grid layout is being applied */
+    display: flex; /* If you want row items in a single line, otherwise, remove this */
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+}
 
- }
-@media (min-width:768px) and (max-width:991px) {
-.model_pg1i3l h6{
-font-size:12px; 
- }
-.font_12{
-font-size:12px; 
- }
- }
+.center_o1 {
+    margin-bottom: 20px;
+}
 
-@media (min-width:992px) and (max-width:1200px) {
+.col-md-12 {
+    /* Add necessary styles for col-md-12 if any */
+}
 
- }
-@media (min-width:1201px) and (max-width:1255px) {
+.text-white {
+    color: white;
+}
 
- }
+.col_oran {
+    color: orange;
+}
 
+.col_light {
+    color: lightgray;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
