@@ -88,3 +88,68 @@
 }
 
 @media (min-width:1201px) and (max-width:1255px) {}
+
+#career {
+    padding: 20px;
+}
+
+#career h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#career p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#career .list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#career .list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#career .list-group-item:last-child {
+    border-bottom: none;
+}
+
+#career .list-group-item h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#career .list-group-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#career form {
+    margin-top: 20px;
+}
+
+#career input[type="file"] {
+    display: none;
+}
+
+#career label[for="file"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#career label[for="file"]:hover {
+    background-color: #3e8e41;
+}
