@@ -5,7 +5,8 @@
 .center_o {
     background-image: url(../img/14.jpg);
     background-position: center;
-    padding: 20px; /* Adjust padding as needed */
+    padding: 20px;
+    /* Adjust padding as needed */
 }
 
 .center_om {
@@ -18,8 +19,10 @@
 
 .row {
     /* Ensure no grid layout is being applied */
-    display: flex; /* If you want row items in a single line, otherwise, remove this */
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    display: flex;
+    /* If you want row items in a single line, otherwise, remove this */
+    flex-wrap: nowrap;
+    /* Ensure items don't wrap to the next line */
 }
 
 .center_o1 {
@@ -47,4 +50,3 @@
     display: table;
     clear: both;
 }
-

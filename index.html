@@ -1040,8 +1040,7 @@
 		var sticky = navbar_sticky.offsetTop;
 		var navbar_height = document.querySelector(".navbar").offsetHeight;
 
-		function myFunction()
-		{
+		function myFunction() {
 			if (window.pageYOffset >= sticky + navbar_height) {
 				navbar_sticky.classList.add("sticky");
 				document.body.style.paddingTop = navbar_height + "px";
@@ -1051,12 +1050,12 @@
 			}
 		}
 
-		$('document').ready(function(){
+		$('document').ready(function () {
 			$('#select_car').select2({
-				placeholder:'Select Car',
+				placeholder: 'Select Car',
 				allowClear: true
 			});
-	    });
+		});
 
 	</script>
 </body>
